@@ -200,13 +200,14 @@ The project currently has:
 - 🔄 More content coming soon!
 
 Full content roadmap:
-- Level 1: Foundation (30 koans)
+- Level 1: Foundation (44 koans)
 - Level 2: Data Preparation (30 koans)
 - Level 3: Model Fundamentals (30 koans)
 - Level 4: Advanced Techniques (30 koans)
 - Level 5: Best Practices (10 koans)
+- Level 6: Mathematical Foundations (22 koans)
 
-**Total: 130 koans** across 15 notebooks
+**Total: 166 koans** across 16 notebooks
 
 ---
 

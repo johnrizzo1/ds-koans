@@ -29,6 +29,7 @@ class ProgressTracker:
     # Topic mappings for mastery calculation
     TOPIC_NOTEBOOKS = {
         'numpy': ['01_numpy_fundamentals'],
+        'calculus': ['16_calculus_for_ml'],
         'pandas': ['02_pandas_essentials', '03_data_exploration'],
         'preprocessing': [
             '04_data_cleaning',
@@ -48,7 +49,7 @@ class ProgressTracker:
     
     # Expected koan counts per notebook
     NOTEBOOK_KOAN_COUNTS = {
-        '01_numpy_fundamentals': 10,
+        '01_numpy_fundamentals': 24,
         '02_pandas_essentials': 10,
         '03_data_exploration': 10,
         '04_data_cleaning': 10,
@@ -62,7 +63,8 @@ class ProgressTracker:
         '12_ensemble_methods': 7,
         '13_hyperparameter_tuning': 7,
         '14_model_selection_pipeline': 5,
-        '15_ethics_and_bias': 5
+        '15_ethics_and_bias': 5,
+        '16_calculus_for_ml': 22
     }
     
     def __init__(self, progress_file: str = "data/progress.json"):

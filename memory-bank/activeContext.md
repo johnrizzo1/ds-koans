@@ -64,23 +64,12 @@ datascience-koans/
 
 ## Next Immediate Steps
 
-### Phase 2: Complete Level 1 Content (Weeks 3-4)
-1. **Expand 01_numpy_fundamentals.ipynb** - Add remaining 5 koans:
-   - Broadcasting
-   - Array methods (sum, mean, std)
-   - Array reshaping
-   - Array stacking
-   - Random arrays
+### Phase 2: Foundational Enhancements (Weeks 3-4)
+1. **Finalize 16_calculus_for_ml.ipynb** - Ensure validators, instructions, and optional visuals land smoothly.
 
-2. **Create 02_pandas_essentials.ipynb** (10 koans)
-   - Following same structure as notebook 01
-   - Series/DataFrame operations
-   - Data selection and filtering
+2. **Back-propagate prerequisites** across advanced notebooks (11-14) to reference the calculus KOANs.
 
-3. **Create 03_data_exploration.ipynb** (10 koans)
-   - Loading and profiling data
-   - Visualization basics
-   - Correlation analysis
+3. **Validate early notebooks** (01-03) end-to-end to confirm updated counts and prerequisites align.
 
 ### Phase 3: Infrastructure Enhancements
 1. Add comprehensive unit tests with pytest
@@ -167,7 +156,7 @@ validate()
 - ✅ Core infrastructure: 100% complete
 - ✅ Project setup: 100% complete  
 - ✅ Demo content: 5 koans created
-- ⏳ Full content: 5/130 koans (4%)
+- ⏳ Full content: 5/166 koans (~3%)
 - ⏳ Testing coverage: Basic tests only
 
 ## Blockers & Risks

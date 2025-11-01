@@ -8,7 +8,7 @@ Data Science Koans is an interactive learning platform that teaches data science
 
 ### Key Features
 
-- ✅ **130 Progressive Exercises** - From NumPy basics to advanced ML pipelines
+- ✅ **166 Progressive Exercises** - From NumPy basics to advanced ML pipelines
 - 📊 **Immediate Feedback** - Know instantly if your solution is correct
 - 📈 **Progress Tracking** - See your mastery levels across all topics
 - 🎓 **Self-Paced Learning** - Work at your own speed
@@ -16,7 +16,7 @@ Data Science Koans is an interactive learning platform that teaches data science
 
 ## 📚 What You'll Learn
 
-### Level 1: Foundation (30 koans)
+### Level 1: Foundation (44 koans)
 
 - NumPy array operations and broadcasting
 - Pandas DataFrames and data manipulation
@@ -45,6 +45,12 @@ Data Science Koans is an interactive learning platform that teaches data science
 - ML pipelines and workflows
 - Ethics and fairness in machine learning
 - Responsible data science practices
+
+### Level 6: Mathematical Foundations (22 koans)
+
+- Differential calculus refresher
+- Gradients, Jacobians, and Hessians
+- Optimization intuition for gradient descent
 
 ## 🚀 Getting Started
 
@@ -151,7 +157,7 @@ datascience-koans/
 │   │   ├── validator.py           # Validation framework
 │   │   ├── progress.py            # Progress tracking
 │   │   └── data_gen.py            # Data generation
-│   ├── notebooks/                 # Learning notebooks (15 total)
+│   ├── notebooks/                 # Learning notebooks (16 total)
 │   │   ├── 01_numpy_fundamentals.ipynb
 │   │   ├── 02_pandas_essentials.ipynb
 │   │   └── ...
@@ -169,6 +175,7 @@ We recommend following the notebooks in order:
 3. **Complete all koans** in a notebook before moving on
 4. **Review as needed** - Revisit earlier koans if concepts are unclear
 5. **Check progress regularly** - Celebrate your achievements!
+6. **Lean on Level 6** before advanced optimization to refresh calculus intuition
 
 ## 💡 Tips for Success
 

@@ -2,12 +2,12 @@
 
 ## Overview
 
-A comprehensive, interactive learning platform for data science, inspired by Ruby Koans. This project provides 15 Jupyter notebooks with 130 hands-on exercises (koans) covering fundamental to advanced data science concepts.
+A comprehensive, interactive learning platform for data science, inspired by Ruby Koans. This project provides 16 Jupyter notebooks with 166 hands-on exercises (koans) covering fundamental to advanced data science concepts, including the calculus that powers modern optimization.
 
 ## Project Statistics
 
-- **Total Notebooks**: 15
-- **Total Koans**: 130
+- **Total Notebooks**: 16
+- **Total Koans**: 166
 - **Core Technologies**: NumPy, pandas, scikit-learn
 - **Format**: Jupyter Notebooks (.ipynb)
 - **Learning Model**: Test-driven, iterative practice
@@ -37,7 +37,7 @@ A comprehensive, interactive learning platform for data science, inspired by Rub
 ## Notebook Structure
 
 ### Beginner Level (Notebooks 1-6)
-1. **NumPy Fundamentals** (10 koans)
+1. **NumPy Fundamentals** (24 koans)
    - Array creation and properties
    - Indexing and slicing
    - Operations and broadcasting
@@ -92,7 +92,7 @@ A comprehensive, interactive learning platform for data science, inspired by Rub
    - Learning curves
    - Overfitting detection
 
-### Advanced Level (Notebooks 10-15)
+### Advanced Level (Notebooks 10-16)
 10. **Clustering** (8 koans)
     - K-means clustering
     - Hierarchical clustering
@@ -128,6 +128,12 @@ A comprehensive, interactive learning platform for data science, inspired by Rub
     - Bias detection
     - Data consent
     - Responsible AI
+
+16. **Calculus for Machine Learning** (22 koans)
+    - Difference quotients and tangents
+    - Optimization via derivatives
+    - Partial derivatives and gradients
+    - Jacobians and Hessians for higher-order analysis
 
 ## Key Features
 
@@ -176,7 +182,8 @@ datascience-koans/
 │   │   ├── 12_ensemble_methods.ipynb
 │   │   ├── 13_hyperparameter_tuning.ipynb
 │   │   ├── 14_pipelines.ipynb
-│   │   └── 15_ethics_and_bias.ipynb
+│   │   ├── 15_ethics_and_bias.ipynb
+│   │   └── 16_calculus_for_ml.ipynb
 │   └── tests/
 │       ├── __init__.py
 │       ├── test_validator.py
@@ -238,12 +245,13 @@ jupyter notebook
 3. Complete all koans in each notebook before moving on
 4. Review progress regularly
 5. Revisit challenging concepts
+6. Leverage Notebook 16 before advanced optimization or tuning work
 
 ### Time Estimates
 - **Beginner Level** (Notebooks 1-6): ~12-15 hours
 - **Intermediate Level** (Notebooks 7-9): ~8-10 hours
-- **Advanced Level** (Notebooks 10-15): ~10-12 hours
-- **Total**: ~30-37 hours
+- **Advanced Level** (Notebooks 10-16): ~16-22 hours
+- **Total**: ~36-47 hours
 
 ## Success Metrics
 
@@ -266,4 +274,3 @@ jupyter notebook
 - Time series analysis
 - Natural language processing
 - Computer vision basics
--

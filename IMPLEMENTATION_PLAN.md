@@ -2,14 +2,14 @@
 
 ## Overview
 
-Interactive data science learning platform using Jupyter notebooks, inspired by Ruby Koans. 130 progressive exercises teaching NumPy, pandas, and scikit-learn with immediate feedback.
+Interactive data science learning platform using Jupyter notebooks, inspired by Ruby Koans. 166 progressive exercises teaching NumPy, pandas, scikit-learn, and the math foundations behind optimization with immediate feedback.
 
 ---
 
-## Koan Catalog (130 Total)
+## Koan Catalog (166 Total)
 
-### Level 1: Foundation (30) - Beginner
-- **01_numpy_fundamentals** (10): Arrays, indexing, operations, broadcasting, reshaping
+### Level 1: Foundation (44) - Beginner
+- **01_numpy_fundamentals** (24): Arrays, linear algebra foundations, indexing, operations, broadcasting, reshaping
 - **02_pandas_essentials** (10): Series/DataFrames, selection, statistics, grouping
 - **03_data_exploration** (10): Loading, profiling, visualization, correlations
 
@@ -32,6 +32,9 @@ Interactive data science learning platform using Jupyter notebooks, inspired by 
 ### Level 5: Best Practices (10) - Advanced
 - **14_model_selection_pipeline** (5): Pipelines, custom transformers
 - **15_ethics_and_bias** (5): Fairness, bias detection, responsible ML
+
+### Level 6: Mathematical Foundations (22) - Advanced
+- **16_calculus_for_ml** (22): Derivatives, optimization, gradients, Jacobians, Hessians
 
 ---
 
@@ -136,6 +139,11 @@ validate()
 - ✅ Comprehensive testing
 - ✅ Documentation (README, setup guides)
 
+### Phase 7: Level 6 Content (Weeks 13-14)
+- ⬜ Notebook 16: Calculus for Machine Learning
+- ⬜ Integrate visualization demos for calculus concepts
+- ⬜ Align prerequisites across advanced notebooks
+
 ---
 
 ## Technical Stack
@@ -223,8 +231,8 @@ tracker.get_mastery_report()
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/datascience-koans.git
-cd datascience-koans
+git clone https://github.com/johnrizzo1/ds-koans.git
+cd ds-koans
 
 # Create virtual environment
 python -m venv venv

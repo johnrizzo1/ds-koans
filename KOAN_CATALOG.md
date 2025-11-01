@@ -1,12 +1,12 @@
 # Data Science Koans - Complete Catalog
 
-**Total Koans: 130 across 15 notebooks**
+**Total Koans: 166 across 16 notebooks**
 
 This comprehensive document specifies every koan in the Data Science Koans project, organized by notebook and difficulty level.
 
 ---
 
-## 📘 Notebook 01: NumPy Fundamentals (10 koans)
+## 📘 Notebook 01: NumPy Fundamentals (24 koans)
 
 **Prerequisites**: Basic Python  
 **Difficulty**: Beginner  
@@ -24,6 +24,20 @@ This comprehensive document specifies every koan in the Data Science Koans proje
 | 1.8 | Array Operations | Element-wise arithmetic | `+`, `-`, `*`, `/`, `**` | Vectorized calculations |
 | 1.9 | Broadcasting | Different shape operations | Broadcasting rules | Add 1D to 2D array |
 | 1.10 | Array Methods | Aggregations | `mean()`, `sum()`, `std()`, axis param | Statistics along axes |
+| 1.11 | Vector Norm | Vector magnitude | `np.linalg.norm` | Compute the L2 length of a vector |
+| 1.12 | Vector Normalization | Unit vectors | Safe normalization | Scale vectors to length 1 |
+| 1.13 | Dot Product | Inner product | `np.dot` | Multiply and sum vector components |
+| 1.14 | Angle Between Vectors | Vector similarity | Dot product, arccos | Compute angle in degrees |
+| 1.15 | Projection Onto Axis | Vector projection | Normalization, dot product | Project a vector onto an arbitrary axis |
+| 1.16 | Identity Matrix | Identity matrices | `np.eye` | Create an n x n identity matrix |
+| 1.17 | Matrix Multiplication | Matrix product | `@`, `np.matmul` | Multiply compatible matrices |
+| 1.18 | Matrix Transpose | Transpose operations | `.T`, `np.transpose` | Swap rows and columns |
+| 1.19 | Reshape to Matrix | Reshaping arrays | `reshape()` | Convert 1D arrays into 2D matrices |
+| 1.20 | Rotation Transformation | Linear transformations | Rotation matrix | Rotate 2D vectors by an angle |
+| 1.21 | Matrix Inverse | Matrix inverse | `np.linalg.inv` | Return inverse and verify identity |
+| 1.22 | Determinant | Determinant | `np.linalg.det` | Compute determinant scalars |
+| 1.23 | Singular Value Decomposition | Matrix factorization | `np.linalg.svd` | Factor matrix into U, Sigma, V^T |
+| 1.24 | Eigenvalues and Eigenvectors | Eigen decomposition | `np.linalg.eig`, normalization | Return the dominant eigenpair |
 
 ---
 
@@ -302,28 +316,64 @@ log1p()` | Apply log transforms |
 
 ---
 
+## 📘 Notebook 16: Calculus for Machine Learning (22 koans)
+
+**Prerequisites**: NumPy Fundamentals (KOANs 1.11-1.24)  
+**Difficulty**: Advanced  
+**Time**: 4-5 hours
+
+| # | Title | Concept | Key Skills | Exercise Summary |
+|---|-------|---------|------------|------------------|
+| 16.1 | Secant Slope | Difference quotients | Slope formula | Compute slope between two points |
+| 16.2 | Constant Slope | Linear derivatives | Analytic differentiation | Confirm slope of linear functions |
+| 16.3 | Numeric Derivative | Finite differences | Central difference | Approximate derivative of $x^2$ |
+| 16.4 | Tangent Line | Tangent construction | Point-slope form | Derive tangent to $x^2$ at any point |
+| 16.5 | Differentiability Check | One-sided limits | Left/right derivatives | Detect non-differentiable points of $|x|$ |
+| 16.6 | Power Rule | Polynomial derivatives | Power rule | Generate derivative function for $x^n$ |
+| 16.7 | Constant Derivative | Derivative basics | Constant rule | Build derivative for constant functions |
+| 16.8 | Product Rule | Rule combinations | Product rule | Combine derivatives of multiplied functions |
+| 16.9 | Quotient Rule | Rule combinations | Quotient rule | Differentiate ratios of functions |
+| 16.10 | Chain Rule | Composite functions | Chain rule | Differentiate nested functions |
+| 16.11 | Exp & Log | Special functions | Exponential, logarithmic derivatives | Return derivatives of $e^x$ and $\ln x$ |
+| 16.12 | Trig Derivatives | Trigonometry | Sine, cosine, tangent | Evaluate trig derivatives at sample points |
+| 16.13 | Critical Points | Optimization basics | Solving quadratics | Find stationary points of cubic derivative |
+| 16.14 | Second Derivative Test | Optimization diagnostics | Second derivative sign | Classify local minima/maxima |
+| 16.15 | Gradient Descent 1D | Optimization updates | Gradient step | Perform one 1D gradient descent update |
+| 16.16 | Higher-Order Derivative | Higher-order calculus | Repeated differentiation | Compute k-th derivative of $x^n$ |
+| 16.17 | Partial Derivatives | Multivariate calculus | Central differences | Approximate partial derivatives numerically |
+| 16.18 | Gradient Vector | Multivariate calculus | Gradient assembly | Build gradient vector for scalar fields |
+| 16.19 | Gradient Descent 2D | Optimization updates | Vectorized step | Apply gradient descent in two dimensions |
+| 16.20 | Jacobian | Vector-valued calculus | Jacobian approximation | Estimate Jacobian matrix via finite differences |
+| 16.21 | Hessian | Second-order analysis | Hessian computation | Assemble Hessian matrix for scalar function |
+| 16.22 | Hessian Classification | Optimization diagnostics | Eigenvalue analysis | Classify stationary point using Hessian |
+
+---
+
 ## Summary Statistics
 
 ### By Difficulty Level
-- **Beginner**: 30 koans (Notebooks 1-3)
+- **Beginner**: 44 koans (Notebooks 1-3)
 - **Beginner-Intermediate**: 20 koans (Notebooks 4-5)
 - **Intermediate**: 40 koans (Notebooks 6-9)
 - **Intermediate-Advanced**: 16 koans (Notebooks 10-11)
-- **Advanced**: 24 koans (Notebooks 12-15)
+- **Advanced**: 46 koans (Notebooks 12-16)
 
 ### By Topic Area
-- **NumPy/Pandas Fundamentals**: 20 koans
-- **Data Preparation**: 30 koans
+- **NumPy Fundamentals**: 24 koans
+- **Pandas & Data Manipulation**: 10 koans
+- **Exploration & Cleaning**: 20 koans
+- **Transformation & Feature Engineering**: 20 koans
 - **Supervised Learning**: 30 koans
 - **Unsupervised Learning**: 16 koans
-- **Advanced Techniques**: 24 koans
-- **Best Practices**: 10 koans
+- **Advanced Modeling Techniques**: 19 koans
+- **Ethics & Governance**: 5 koans
+- **Calculus & Optimization Foundations**: 22 koans
 
 ### Estimated Total Time
 - **Beginner Path** (Notebooks 1-3): 6-9 hours
 - **Intermediate Path** (Notebooks 4-9): 15-21 hours
-- **Advanced Path** (Notebooks 10-15): 12-16 hours
-- **Complete Course**: 33-46 hours
+- **Advanced Path** (Notebooks 10-16): 16-22 hours
+- **Complete Course**: 37-52 hours
 
 ---
 
@@ -351,17 +401,18 @@ log1p()` | Apply log transforms |
 13. Notebook 13: Hyperparameter Tuning
 14. Notebook 14: Model Selection and Pipelines
 15. Notebook 15: Ethics and Bias
+16. Notebook 16: Calculus for Machine Learning
 
 ---
 
 ## Next Steps
 
-1. **Complete Notebook 01** with all 10 koans (currently has 5 demo koans)
-2. **Create Notebook 02** (Pandas Essentials)
-3. **Create Notebook 03** (Data Exploration)
-4. **Test learning flow** with users
-5. **Iterate based on feedback**
-6. **Continue with remaining notebooks**
+1. Finalize calculus notebook validations and visuals (Notebook 16)
+2. Develop remaining Level 2–3 content notebooks (04-09)
+3. Test learning flow end-to-end with pilot users
+4. Iterate on feedback for clarity and pacing
+5. Backfill solution reference implementations
+6. Expand advanced content with real-world datasets and case studies
 
 ---
 
